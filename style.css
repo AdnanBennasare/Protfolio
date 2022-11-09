@@ -1,0 +1,259 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-image: linear-gradient(#3aa5a4 , #7ae5e4);
+}
+
+
+.back {
+    position: absolute;
+    background: url(saved/roma0112.jpg);
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+    z-index: -1;
+    background-size: cover;
+    top: -58%;
+}
+
+
+.over-lay {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 200px;
+
+
+}
+
+.over-lay h1 {
+    color: #fff;
+    font-family: 'oswald' , sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 63px;
+}
+.over-lay p {
+    padding-top: 20px;
+    font-family: 'oswald' , sans-serif;
+    color: #fff;
+    font-size: 25px;
+}
+.about {
+    padding-bottom: 13px;
+
+}
+
+
+
+section {
+    background-color: #fff;
+    padding: 60px;
+    margin: 66PX 105px;
+    border-radius: 4px;
+}
+h2 {
+    padding-bottom: 33px;
+    font-family: 'oswald' , sans-serif;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'lato' , sans-serif;
+    text-transform: capitalize;
+    
+    
+}
+
+span {
+    opacity: 70%;
+    color: #555555;
+}
+p {
+    color: #555555;
+    line-height: 1,6;
+}
+
+
+/* <!--=========== abuout ME ==================--> */
+.about-img img {
+    height: 329px;
+    width: 424px;
+}
+
+.about-img p {
+    font-size: 21px;
+    line-height: 1.6;
+    width: 70%;
+    position: relative;
+    left: 460px;
+    bottom: 276px;
+    font-family: 'lato' , sans-serif;
+    
+    
+}
+
+/* <!--=========== PROJECT ==================--> */
+
+.project .project-img img {
+    padding-right: 60px;
+}
+.img-1, .img-2, .img-3 {
+    width: 520px;
+    height: 300px
+}
+
+.project-img {
+    display: inline-block;
+}
+
+.project-img h3 {
+    font-size: 27px;
+    padding-top: 10px;
+}
+.project-img p {
+    padding-top: 20px;
+    font-size: 23px;
+}
+
+
+/* <!--=========== WORK==================--> */
+
+.work .work-1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.work .work-1 span {
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.58;
+    color: #555;
+}
+
+.work .work-1 p {
+    padding-top: 20px;
+    font-size: 21px;
+    font-family: 'lato' , sans-serif;
+
+}
+
+/* <!--=========== Education ==================--> */
+.education .edu-1 {
+    padding-top: 30px;
+    padding-right: 345px;
+    float: left;
+    width: 33.33%;
+}
+
+.educ-man::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.edu-1 span {
+    padding-top: 20px;
+    font-size: 23px;
+    opacity: 95%;
+}
+.edu-1 p {
+    padding-top: 35px;
+    font-size: 25px;
+    color: #555;
+    opacity: 95%;
+    padding-bottom: 35px;
+}
+.edu-1 h3 {
+    font-size: 26px;
+ }
+ /* <!--=========== languages  ==================--> */
+ .language {
+    padding-bottom: 80px;
+ }
+ .language .lan {
+    padding-top: 34px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 365px;
+
+ }
+ .language .lan h3 {
+    font-size: 23px;
+
+ }
+ /* <!--===========  =========social networks =========--> */
+ .social .net {
+    padding-top: 34px;
+    padding-left: 0px;
+    padding-bottom: 45px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.net h3 {
+    display: inline-block;
+    Padding-right: 345px;
+
+}
+
+.net h3:hover a {
+   color: #3aa5a4;
+
+}
+.fa-brands, .fab {
+    font-weight: 400;
+    margin-right: 8px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 6px
+ }
+  /* <!--===========  ========= Contact =========--> */
+
+ #email {
+    width: 100%;
+    padding: 23px;
+    margin-bottom: 23px;
+    border: none;
+    background-color: #eee;
+    margin-top: 20px;
+ }
+ #subject {
+    width: 100%;
+    padding: 23px;
+    margin-bottom: 23px;
+    border: none;
+    background-color: #eee;
+ }
+
+#message-01 {
+    width: 100%;
+    padding: 23px;
+    margin-bottom: 23px;
+    border: none;
+    background-color: #eee;
+
+}
+button {
+    font-size: 19px;
+    color: #eee;
+    background-color: rgb(0, 0, 0);
+    padding: 17px;
+    border-radius: 50px; 
+}
+.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding: 70px;
+    font-family: 'lato' , sans-serif;
+}
